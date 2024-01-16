@@ -7,6 +7,8 @@
     <string name="square">SQUARE</string>
     <string name="polygon">POLYGON</string>
     <string name="ellipse">ELLIPSE</string>
+    <string name="trapezoid">TRAPEZOID</string>
+    <string name="sector_of_the_circle">SECTOR OF THE CIRCLE</string>
     <string name="rectangle">RECTANGLE</string>
     <string name="parallelogram">PARALLELOGRAM</string>
     <string name="circle">CIRCLE</string>

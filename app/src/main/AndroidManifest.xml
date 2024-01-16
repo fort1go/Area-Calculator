@@ -38,6 +38,12 @@
             android:name=".circle"
             android:exported="false" />
         <activity
+            android:name=".cirpart"
+            android:exported="false" />
+        <activity
+            android:name=".trapezoid"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">

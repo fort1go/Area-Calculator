@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import kotlin.jvm.internal.Intrinsics
 
 class areaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +17,8 @@ class areaActivity : AppCompatActivity() {
         var cir = findViewById<Button>(R.id.circle)
         var pal = findViewById<Button>(R.id.parallelogram)
         var ell = findViewById<Button>(R.id.ellipse)
+        var tra = findViewById<Button>(R.id.trapezoid)
+        var cirp = findViewById<Button>(R.id.cirpart)
 
 
         tri.setOnClickListener{
@@ -40,6 +41,12 @@ class areaActivity : AppCompatActivity() {
         }
         ell.setOnClickListener{
             startActivity(Intent(this,ellipse::class.java))
+        }
+        tra.setOnClickListener{
+            startActivity(Intent(this,trapezoid::class.java))
+        }
+        cirp.setOnClickListener{
+            startActivity(Intent(this,cirpart::class.java))
         }
     }
 }
