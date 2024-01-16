@@ -12,12 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var btnArea=findViewById<FrameLayout>(R.id.btnArea)
-        var btnConverter = findViewById<FrameLayout>(R.id.btnConverter)
+
         btnArea.setOnClickListener{
             startActivity(Intent(this, areaActivity::class.java))
         }
-        btnConverter.setOnClickListener{
-            startActivity(Intent(this, converterActivity::class.java))
-        }
+
     }
 }

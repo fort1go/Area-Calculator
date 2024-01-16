@@ -32,9 +32,6 @@
             android:name=".areaActivity"
             android:exported="false" />
         <activity
-            android:name=".converterActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
