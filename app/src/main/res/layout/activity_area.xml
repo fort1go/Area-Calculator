@@ -148,6 +148,18 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/cylinder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFC4C4"
+            android:text="cylinder"
+            android:textColor="#850E35"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
             android:id="@+id/parallelepiped"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

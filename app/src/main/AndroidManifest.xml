@@ -26,6 +26,9 @@
             android:name=".cube"
             android:exported="false" />
         <activity
+            android:name=".cylinder"
+            android:exported="false" />
+        <activity
             android:name=".parallelepiped"
             android:exported="false" />
         <activity
