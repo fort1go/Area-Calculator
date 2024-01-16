@@ -19,6 +19,7 @@ class areaActivity : AppCompatActivity() {
         var ell = findViewById<Button>(R.id.ellipse)
         var tra = findViewById<Button>(R.id.trapezoid)
         var cirp = findViewById<Button>(R.id.cirpart)
+        var cub = findViewById<Button>(R.id.cube)
 
 
         tri.setOnClickListener{
@@ -47,6 +48,9 @@ class areaActivity : AppCompatActivity() {
         }
         cirp.setOnClickListener{
             startActivity(Intent(this,cirpart::class.java))
+        }
+        cub.setOnClickListener{
+            startActivity(Intent(this,cube::class.java))
         }
     }
 }
