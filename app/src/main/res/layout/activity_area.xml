@@ -104,6 +104,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ellipse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FFC4C4"
+            android:text="@string/ellipse"
+            android:textColor="#850E35"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 </LinearLayout>

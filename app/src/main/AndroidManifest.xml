@@ -17,6 +17,9 @@
             android:name=".polygon"
             android:exported="false" />
         <activity
+            android:name=".ellipse"
+            android:exported="false" />
+        <activity
             android:name=".square"
             android:exported="false" />
         <activity

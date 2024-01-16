@@ -17,6 +17,8 @@ class areaActivity : AppCompatActivity() {
         var pol = findViewById<Button>(R.id.polygon)
         var cir = findViewById<Button>(R.id.circle)
         var pal = findViewById<Button>(R.id.parallelogram)
+        var ell = findViewById<Button>(R.id.ellipse)
+
 
         tri.setOnClickListener{
             startActivity(Intent(this,triangle::class.java))
@@ -35,6 +37,9 @@ class areaActivity : AppCompatActivity() {
         }
         pal.setOnClickListener{
             startActivity(Intent(this,parallelogram::class.java))
+        }
+        ell.setOnClickListener{
+            startActivity(Intent(this,ellipse::class.java))
         }
     }
 }
