@@ -30,7 +30,7 @@ class cirpart : AppCompatActivity() {
 
 
                 val s = b / 360*a*a*3.14
-                val answer = s.toString()
+                val answer = ("%.3f".format(s)).toString()
                 result.text = answer.toString()
             }
               catch (e: NumberFormatException) {

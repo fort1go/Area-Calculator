@@ -32,7 +32,7 @@ class triangle : AppCompatActivity() {
 
                 val s = (a + b + c) / 2.0
                 val x = (s * (s - a) * (s - b) * (s - c)).toDouble()
-                val answer = sqrt(x).toString()
+                val answer = ("%.3f".format(sqrt(x))).toString()
                 result.text = answer.toString()
             }
               catch (e: NumberFormatException) {

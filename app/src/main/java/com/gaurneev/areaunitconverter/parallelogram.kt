@@ -26,7 +26,7 @@ class parallelogram : AppCompatActivity() {
                 val s2 = side2.text.toString().toDouble()
                 val sa = sinangle.text.toString().toDouble()
 
-                val answer = (s1*s2*sa).toString()
+                val answer = ("%.3f".format((s1*s2*sa))).toString()
                 result.text = answer.toString()
             }
             catch (e: NumberFormatException) {

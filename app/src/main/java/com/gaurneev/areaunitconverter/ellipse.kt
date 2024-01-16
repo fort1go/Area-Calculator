@@ -25,7 +25,7 @@ class ellipse : AppCompatActivity() {
                 val len = sideR1.text.toString().toDouble()
                 val bre = sideR2.text.toString().toDouble()
 
-                val answer = (len*bre*3.14).toString()
+                val answer = ("%.3f".format((len*bre*3.14))).toString()
                 result.text = answer.toString()
             }
             catch (e: NumberFormatException) {

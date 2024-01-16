@@ -24,7 +24,7 @@ class polygon : AppCompatActivity() {
                 val side = side.text.toString().toDouble()
                 val perimeter = perimeter.text.toString().toDouble()
 
-                val answer = (side*perimeter*0.5).toString()
+                val answer = ("%.3f".format((side*perimeter*0.5))).toString()
                 result.text = answer.toString()
             }
             catch (e: NumberFormatException) {

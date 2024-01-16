@@ -7,10 +7,10 @@ import android.widget.TextView
 import java.lang.NumberFormatException
 import kotlin.math.sqrt
 
-class cylinder : AppCompatActivity() {
+class cone : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_cylinder)
+        setContentView(R.layout.activity_cone)
 
         val sideR1 : TextView = findViewById(R.id.etName1)
         val sideR2 : TextView = findViewById(R.id.etName2)
@@ -25,7 +25,7 @@ class cylinder : AppCompatActivity() {
                 val radius = sideR1.text.toString().toDouble()
                 val height = sideR2.text.toString().toDouble()
 
-                val answer = ("%.3f".format((height*radius*radius*3.14))).toString()
+                val answer = "%.3f".format((height*radius*radius*3.14/3)).toString()
                 result.text = answer.toString()
             }
             catch (e: NumberFormatException) {

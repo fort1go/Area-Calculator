@@ -144,7 +144,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
@@ -177,6 +177,24 @@
             android:layout_margin="5dp"
             android:backgroundTint="#FFC4C4"
             android:text="cube"
+            android:textColor="#850E35"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFC4C4"
+            android:text="cone"
             android:textColor="#850E35"
             android:textSize="15sp"
             android:textStyle="bold" />

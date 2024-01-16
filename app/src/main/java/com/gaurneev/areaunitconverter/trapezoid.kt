@@ -31,7 +31,7 @@ class trapezoid : AppCompatActivity() {
                 val c = side3.text.toString().toDouble()
 
                 val s = (a + b) * c / 2
-                val answer = s.toString()
+                val answer = ("%.3f".format(s)).toString()
                 result.text = answer.toString()
             }
               catch (e: NumberFormatException) {
