@@ -148,6 +148,17 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/parallelepiped"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FFC4C4"
+            android:text="parallelepiped"
+            android:textColor="#850E35"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
             android:id="@+id/cube"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
