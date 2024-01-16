@@ -14,10 +14,7 @@
         android:theme="@style/Theme.AreaUnitConverter"
         tools:targetApi="31">
         <activity
-            android:name=".SpinnerMenu"
-            android:exported="false" />
-        <activity
-            android:name=".pentagon"
+            android:name=".polygon"
             android:exported="false" />
         <activity
             android:name=".square"
@@ -29,7 +26,13 @@
             android:name=".triangle"
             android:exported="false" />
         <activity
+            android:name=".parallelogram"
+            android:exported="false" />
+        <activity
             android:name=".areaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".circle"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

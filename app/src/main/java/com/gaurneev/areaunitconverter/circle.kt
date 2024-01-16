@@ -7,22 +7,22 @@ import android.widget.TextView
 import java.lang.NumberFormatException
 import kotlin.math.sqrt
 
-class square : AppCompatActivity() {
+class circle : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_square)
+        setContentView(R.layout.activity_circle)
 
-        val side : TextView = findViewById(R.id.etName1)
+        val radius : TextView = findViewById(R.id.etName1)
         val result : TextView = findViewById(R.id.ans)
         val calculate: Button = findViewById(R.id.btnCalc)
 
-        val s1:Double
+        val p1:Double
 
         calculate.setOnClickListener {
             try {
-                val s1 = side.text.toString().toDouble()
+                val p1 = radius.text.toString().toDouble()
 
-                val answer = (s1*s1).toString()
+                val answer = ("%.3f".format((3.14*p1*p1))).toString()
                 result.text = answer.toString()
             }
             catch (e: NumberFormatException) {

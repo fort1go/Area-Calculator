@@ -7,12 +7,13 @@ import android.widget.TextView
 import java.lang.NumberFormatException
 import kotlin.math.sqrt
 
-class pentagon : AppCompatActivity() {
+class polygon : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pentagon)
+        setContentView(R.layout.activity_polygon)
 
-        val sideP1 : TextView = findViewById(R.id.etName1)
+        val side : TextView = findViewById(R.id.etName1)
+        val perimeter : TextView = findViewById(R.id.etName2)
         val result : TextView = findViewById(R.id.ans)
         val calculate: Button = findViewById(R.id.btnCalc)
 
@@ -20,9 +21,10 @@ class pentagon : AppCompatActivity() {
 
         calculate.setOnClickListener {
             try {
-                val p1 = sideP1.text.toString().toDouble()
+                val side = side.text.toString().toDouble()
+                val perimeter = perimeter.text.toString().toDouble()
 
-                val answer = (1.720477400588967*p1*p1).toString()
+                val answer = (side*perimeter*0.5).toString()
                 result.text = answer.toString()
             }
             catch (e: NumberFormatException) {

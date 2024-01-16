@@ -13,58 +13,97 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/suggest"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="30dp"
-        android:textStyle="bold"
+        android:text="@string/suggest"
+        android:textColor="#850E35"
         android:textSize="20sp"
-        android:textColor="#850E35"/>
+        android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/triangle"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FFC4C4"
-        android:layout_margin="5dp"
-        android:text="@string/triangle"
-        android:textStyle="bold"
-        android:textColor="#850E35"
-        android:textSize="15sp"
-        />
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/rectangles"
+        <Button
+            android:id="@+id/triangle"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FFC4C4"
+            android:text="@string/triangle"
+            android:textColor="#850E35"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/rectangles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FFC4C4"
+            android:text="@string/rectangle"
+            android:textColor="#850E35"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/square"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FFC4C4"
+            android:text="@string/square"
+            android:textColor="#850E35"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FFC4C4"
-        android:layout_margin="5dp"
-        android:text="@string/rectangle"
-        android:textStyle="bold"
-        android:textColor="#850E35"
-        android:textSize="15sp"
-        />
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/square"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FFC4C4"
-        android:layout_margin="5dp"
-        android:text="@string/square"
-        android:textStyle="bold"
-        android:textColor="#850E35"
-        android:textSize="15sp"
-        />
+        <Button
+            android:id="@+id/parallelogram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFC4C4"
+            android:text="@string/parallelogram"
+            android:textColor="#850E35"
+            android:textSize="15sp"
+            android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/pentagon"
+        <Button
+            android:id="@+id/circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FFC4C4"
+            android:text="@string/circle"
+            android:textColor="#850E35"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/polygon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FFC4C4"
+            android:text="@string/polygon"
+            android:textColor="#850E35"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FFC4C4"
-        android:layout_margin="5dp"
-        android:text="@string/pentagon"
-        android:textStyle="bold"
-        android:textColor="#850E35"
-        android:textSize="15sp"
-        />
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></LinearLayout>
+
 </LinearLayout>

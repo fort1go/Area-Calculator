@@ -11,22 +11,30 @@ class areaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_area)
 
-        var t = findViewById<Button>(R.id.triangle)
-        var r = findViewById<Button>(R.id.rectangles)
-        var s = findViewById<Button>(R.id.square)
-        var p = findViewById<Button>(R.id.pentagon)
+        var tri = findViewById<Button>(R.id.triangle)
+        var rec = findViewById<Button>(R.id.rectangles)
+        var squ = findViewById<Button>(R.id.square)
+        var pol = findViewById<Button>(R.id.polygon)
+        var cir = findViewById<Button>(R.id.circle)
+        var pal = findViewById<Button>(R.id.parallelogram)
 
-        t.setOnClickListener{
+        tri.setOnClickListener{
             startActivity(Intent(this,triangle::class.java))
         }
-        r.setOnClickListener{
+        rec.setOnClickListener{
             startActivity(Intent(this,rectangle::class.java))
         }
-        s.setOnClickListener{
+        squ.setOnClickListener{
             startActivity(Intent(this,square::class.java))
         }
-        p.setOnClickListener{
-            startActivity(Intent(this,pentagon::class.java))
+        pol.setOnClickListener{
+            startActivity(Intent(this,polygon::class.java))
+        }
+        cir.setOnClickListener{
+            startActivity(Intent(this,circle::class.java))
+        }
+        pal.setOnClickListener{
+            startActivity(Intent(this,parallelogram::class.java))
         }
     }
 }

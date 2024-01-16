@@ -5,8 +5,10 @@
     <string name="title">Choose a figure:-</string>
     <string name="triangle">TRIANGLE</string>
     <string name="square">SQUARE</string>
-    <string name="pentagon">PENTAGON</string>
+    <string name="polygon">POLYGON</string>
     <string name="rectangle">RECTANGLE</string>
+    <string name="parallelogram">PARALLELOGRAM</string>
+    <string name="circle">CIRCLE</string>
     <string name="heading">Enter dimensions of the figure:-</string>
     <string name="suggest">Choose a figure :-</string>
 
