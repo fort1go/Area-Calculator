@@ -23,7 +23,7 @@ class areaActivity : AppCompatActivity() {
         var par = findViewById<Button>(R.id.parallelepiped)
         var cyl = findViewById<Button>(R.id.cylinder)
         var con = findViewById<Button>(R.id.cone)
-
+        var sph = findViewById<Button>(R.id.sphere)
 
         tri.setOnClickListener{
             startActivity(Intent(this,triangle::class.java))
@@ -63,6 +63,9 @@ class areaActivity : AppCompatActivity() {
         }
         con.setOnClickListener{
             startActivity(Intent(this,cone::class.java))
+        }
+        sph.setOnClickListener{
+            startActivity(Intent(this,sphere::class.java))
         }
     }
 }

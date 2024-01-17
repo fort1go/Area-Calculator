@@ -56,6 +56,9 @@
             android:name=".cone"
             android:exported="false" />
         <activity
+            android:name=".sphere"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
